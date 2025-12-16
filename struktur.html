@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Struktur Organisasi PASKIBRA SMKN 2 BEKASI</title>
+  <link rel="icon" type="image/jpg" href="lmbg.jpg">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f8f8f8;
+      color: #333;
+    }
+
+    header {
+      background-color: #d40000;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+    }
+
+    nav {
+      background-color: #b00000;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      padding: 10px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      padding: 10px 20px;
+      transition: background 0.3s;
+    }
+
+    nav a:hover {
+      background-color: #ff4c4c;
+    }
+
+    .struktur-organisasi {
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    .struktur-organisasi h2 {
+      font-size: 2rem;
+      margin-bottom: 30px;
+      color: #b00000;
+    }
+
+    .centered,
+    .sejajar,
+    .anggotagroup {
+      display: grid;
+      gap: 20px;
+      justify-content: center;
+    }
+
+    .centered {
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      margin-bottom: 40px;
+    }
+
+    .sejajar {
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      margin-bottom: 40px;
+    }
+
+    .anggotagroup {
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .tingkat {
+      background-color: #fff;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      text-align: center;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease;
+    }
+
+    .tingkat:hover {
+      transform: translateY(-5px);
+    }
+
+    .centered .tingkat img,
+    .sejajar .tingkat img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 10px;
+    }
+
+    .anggotagroup .tingkat {
+      padding: 12px;
+      border: 1px solid #aaa;
+      border-radius: 4px;
+      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.08);
+    }
+
+    .anggotagroup .tingkat:hover {
+      transform: translateY(-3px);
+    }
+
+    .anggotagroup .tingkat img {
+      width: 350px;
+      height: 190px;
+      border-radius: 4px;
+      object-fit: cover;
+      margin-bottom: 2px;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    }
+
+    .tingkat h3 {
+      font-size: 1.1rem;
+      margin-bottom: 10px;
+      color: #b00000;
+    }
+
+    .tingkat p {
+      font-size: 1rem;
+      font-weight: 600;
+      color: #333;
+    }
+
+    footer {
+      text-align: center;
+      padding: 10px 0;
+      background: #ff0000;
+      color: white;
+      margin-top: 40px;
+    }
+
+    @media (max-width: 768px) {
+      nav a {
+        padding: 8px 16px;
+        font-size: 1em;
+      }
+
+      .struktur-organisasi h2 {
+        font-size: 1.5rem;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .tingkat img {
+        width: 120px;
+        height: 120px;
+      }
+
+      .tingkat h3 {
+        font-size: 1rem;
+      }
+
+      .tingkat p {
+        font-size: 0.95rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>PASKIBRA SMKN 2 BEKASI</h1>
+    <p>Barisan Satya Dharma Loka</p>
+  </header>
+
+  <!-- Navigasi -->
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="struktur.html">Struktur</a>
+    <a href="kegiatan.html">Kegiatan</a>
+    <a href="sejarah.html">Sejarah</a>
+  </nav>
+
+  <!-- Konten Struktur Organisasi -->
+  <section class="struktur-organisasi">
+    <h2>Struktur Organisasi Periode 2025/2026</h2>
+
+    <!-- Baris 1 -->
+    <div class="centered">
+      <div class="tingkat">
+        <h3>Pembina</h3>
+        <img src="pa ramli.jpeg" alt="Pembina">
+        <p>Bapak Ramli Kurniawan, S.Pd</p>
+      </div>
+      <div class="tingkat">
+        <h3>Pelatih</h3>
+        <img src="kang langgeng P.jpeg" alt="Pelatih">
+        <p>Kang Langgeng Parmadi Widakdo</p>
+      </div>
+      <div class="tingkat">
+        <h3>Ketua Umum</h3>
+        <img src="kang darwis.jpeg" alt="Ketua Umum">
+        <p>Kang Ahmad Darwis Al Hakim</p>
+      </div>
+    </div>
+
+    <!-- Baris 2 -->
+    <div class="sejajar">
+      <div class="tingkat">
+        <h3>Wakil Ketua 1</h3>
+        <img src="teh widya.jpeg" alt="Wakil Ketua 1">
+        <p>Teh D Widya Sastra Abidin</p>
+      </div>
+      <div class="tingkat">
+        <h3>Sekretaris 1</h3>
+        <img src="kang dimas.jpeg" alt="Sekretaris 1">
+        <p>Kang Dimas Ardiansyah</p>
+      </div>
+      <div class="tingkat">
+        <h3>Bendahara 1</h3>
+        <img src="teh bile.jpeg" alt="Bendahara 1">
+        <p>Teh Nabilah Al Fitroh</p>
+      </div>
+      <div class="tingkat">
+        <h3>Humas 1</h3>
+        <img src="teh fia.jpeg" alt="Humas 1">
+        <p>Teh Fianita Nanda Ary Prayitno</p>
+      </div>
+      <div class="tingkat">
+        <h3>Wakil Ketua 2</h3>
+        <img src="teh aul.jpeg" alt="Wakil Ketua 2">
+        <p>Teh Aulia Najibah</p>
+      </div>
+      <div class="tingkat">
+        <h3>Sekretaris 2</h3>
+        <img src="teh intan.jpeg" alt="Sekretaris 2">
+        <p>Teh Intan Nuraini</p>
+      </div>
+      <div class="tingkat">
+        <h3>Bendahara 2</h3>
+        <img src="kang wili.jpeg" alt="Bendahara 2">
+        <p>Kang William Dolfi Djenama</p>
+      </div>
+      <div class="tingkat">
+        <h3>Humas 2</h3>
+        <img src="kang rayhan.jpeg" alt="Humas 2">
+        <p>Kang Rayhan Randisyarif Akbar</p>
+      </div>
+    </div>
+
+    <!-- Anggota -->
+    <div class="anggota">
+      <h3 style="margin-bottom: 20px;">Anggota</h3>
+      <div class="anggotagroup">
+        <div class="tingkat">
+          <img src="basarla3.jpeg" alt="Anggota 1">
+          <p></p>
+        </div>
+        <div class="tingkat">
+          <img src="anggta.jpeg" alt="Anggota 2">
+          <p></p>
+        </div>
+        <div class="tingkat">
+          <img src="3akt.jpeg" alt="Anggota 3">
+          <p></p>
+        </div>
+        <!-- Tambahkan anggota lainnya di sini -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 PASKIBRA SMKN 2 BEKASI. All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>

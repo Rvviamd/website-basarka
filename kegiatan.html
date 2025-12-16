@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kegiatan Ekstrakurikuler PASKIBRA</title>
+  <link rel="icon" type="image/jpg" href="lmbg.jpg">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f8f8f8;
+      color: #333;
+    }
+
+    header {
+      background-color: #d40000;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+    }
+
+    nav {
+      background-color: #b00000;
+      display: flex;
+      justify-content: center;
+      padding: 10px;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      padding: 10px 20px;
+      transition: background 0.3s;
+    }
+
+    nav a:hover {
+      background-color: #ff4c4c;
+    }
+
+    .container {
+      padding: 20px;
+    }
+
+    .section-title {
+      text-align: center;
+      margin-bottom: 30px;
+      font-size: 2rem;
+      color: #b00000;
+    }
+
+    .activities {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .activity-card {
+      background-color: white;
+      border-radius: 10px;
+      padding: 20px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease;
+      text-align: center;
+    }
+
+    .activity-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .activity-card video {
+      width: 100%;
+      height: 180px;
+      border-radius: 8px;
+      object-fit: cover;
+      margin-bottom: 10px;
+      background: black;
+    }
+
+    footer {
+      background-color: #d40000;
+      color: white;
+      text-align: center;
+      padding: 15px 0;
+      margin-top: 40px;
+    }
+
+    @media (max-width: 480px) {
+      .section-title {
+        font-size: 1.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>PASKIBRA SMKN 2 BEKASI</h1>
+    <p>Barisan Satya Dharma Loka</p>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="struktur.html">Struktur</a>
+    <a href="kegiatan.html">Kegiatan</a>
+    <a href="sejarah.html">Sejarah</a>
+  </nav>
+
+  <div class="container">
+    <h2 class="section-title">Kegiatan Ekstrakurikuler</h2>
+
+    <div class="activities">
+      <div class="activity-card">
+        <video src="latihan.mp4" controls playsinline></video>
+        <h3>Latihan Rutin</h3>
+        <p>Kegiatan rutin yang dilaksanakan pada hari Rabu dan Sabtu. Yaitu pendalaman Materi Lapangan maupun Pendalaman Materi Ruangan</p>
+      </div>
+
+      <div class="activity-card">
+        <video src="diklat.mp4" controls playsinline></video>
+        <h3>Pelantikan Anggota Baru</h3>
+        <p>Kegiatan tahunan untuk menyambut dan melantik anggota baru sebagai bagian dari keluarga besar PASKIBRA.</p>
+      </div>
+
+      <div class="activity-card">
+        <video src="upacara.mp4" controls playsinline></video>
+        <h3>Upacara Hari Besar</h3>
+        <p>Petugas upacara pada peringatan hari besar nasional seperti HUT RI, Hari Pahlawan, dan lainnya.</p>
+      </div>
+
+      <div class="activity-card">
+        <video src="lkbb.mp4" controls playsinline></video>
+        <h3>Lomba Baris Berbaris</h3>
+        <p>Mengikuti dan menyelenggarakan lomba antar sekolah untuk mengasah kemampuan baris-berbaris secara kompetitif. Kalau mau kepoin lomba apa aja yang pernah kita ikuti, gass langsung aja cek ke halaman Youtube kami </p>
+        <p><a href="https://www.youtube.com/@paskibrasmkn2kotabekasi759" target="_blank" rel="noopener noreferrer">@paskibrasmkn2kotabekasi</a></p> 
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 PASKIBRA SMKN 2 BEKASI. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
